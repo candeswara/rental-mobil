@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>LUXENT - Luxury Rental Car</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navbar Awal -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/images/logo.png" height="40" alt="logo" id="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon custom-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a class="nav-link fs-6 active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-6 active" href="#about">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-6 active" href="#unit">Unit</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-6 active" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link fs-6 active" href="#faq">FAQ</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Navbar Akhir -->
+    
+    <!-- Hero Awal -->
+    <section id="home" class="min-vh-100 d-flex align-items-center bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div>
+                        <h1 class="display-4 text-black" data-aos="fade-right" data-aos-delay="200">Rental Car Bali</h1>
+                        <p class="text-black fs-5" data-aos="fade-right" data-aos-delay="200">Solusi dari segala solusi penyewaan mobil mewah di Bali</p>
+                        <a href="#unit" type="button" class="btn btn-dark px-4 py-2" data-aos="fade-right" data-aos-delay="200">Cek Unit Kendaraan<i class="bi bi-arrow-right" data-aos="fade-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Akhir -->
+    <!-- About Us Awal -->
+    <section id="about">
+        <div class="container py-5 mt-5">
+            <div class="row gx-0">
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="content" data-aos="fade-right">
+                        <h2>Siapa Kita?</h2>
+                        <p class="pt-2">LUXRENT adalah perusahaan rental mobil mewah yang terkemuka di Indonesia yang menyediakan layanan sewa mobil mewah terbaik bagi pelanggan. Kami berkomitmen untuk memberikan armada mobil yang terawat dengan baik, staf yang ramah dan profesional, serta layanan yang mudah dan nyaman bagi pelanggan.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex align-items-center" data-aos="fade-left">
+                    <img src="../assets/images/who-we-are.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container py-5 mt-5">
+            <div class="row gx-0">
+                <div class="col-lg-6 d-flex flex-column align-items-center" data-aos="fade-right">
+                    <img src="../assets/images/why-us.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 d-flex flex-column justify-content-center">
+                    <div class="content" data-aos="fade-left">
+                        <h2>Mengapa Kita?</h2>
+                        <p class="pt-2">Kita memberikan pelayanan dan pengalaman yang mewah dan tak terlupakan kepada customer kita. Kami melayani para customer selayaknya mereka seorang raja supaya mereka dapat pengalaman yang mewah. Kami satu-satunya tempat yang memberikan harga yang dapat di jangkau oleh banyak orang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Akhir -->
+    <!-- Unit Awal -->
+    <section id="unit" class="py-5 mt-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="unit-head text-center mb-5">
+            <h3>Daftar Unit Kendaraan</h3>
+        </div>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-1.png" alt="" class="rounded">
+                        <h4>Nissan GT-R (R35)</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-2.png" alt="" class="rounded">
+                        <h4>Ferrari 812</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-3.png" alt="" class="rounded">
+                        <h4>Bugatti Veyron</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-4.png" alt="" class="rounded">
+                        <h4>Toyota 86</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-5.png" alt="" class="rounded">
+                        <h4>McLaren 720s</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="../assets/images/unit-6.png" alt="" class="rounded">
+                        <h4>BMW M4</h4>
+                        <div class="d-grid gap-2 button">
+                            <button type="button" class="btn btn-dark rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                Pesan Sekarang
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Unit Akhir -->
+    <!-- Modal Awal (TOYOTA 86) -->
+    <section id="modal">
+        <!-- Modal pertama -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Sewa Mobil</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="m-0">Masukkan nama Anda di kolom bawah ini</p>
+                        <input type="text" class="mt-1 ms-2 mb-2 rounded form-control" placeholder="Masukkan nama" id="nama">
+                        <p class="text-danger" id="namaError" style="display:none;">Nama tidak boleh kosong!</p>
+                        <p class="m-0">Masukkan nomor telepon Anda di kolom bawah ini!</p>
+                        <input type="tel" class="mt-1 ms-2 mb-2 rounded form-control" placeholder="Masukkan nomor telepon" id="telepon">
+                        <p class="text-danger" id="teleponError" style="display:none;">Nomor telepon tidak boleh kosong dan harus berupa angka!</p>
+                        <p class="m-0 mt-3">Masukkan berapa hari untuk di pesan</p>
+                        <div class="d-flex align-items-center p-2">
+                            <input type="number" class="rounded form-control" placeholder="Masukkan hari" id="hari" min="1">
+                            <span class="ps-1">Hari</span>
+                        </div>
+                        <p class="text-danger" id="hariError" style="display:none;">Jumlah hari tidak boleh kosong atau kurang dari 1!</p>
+                        <p class="mt-3">Pilih Mobil!</p>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="mobilSelect">
+                                <option value="Nissan GT-R (R-35)|3000000" selected>Nissan GT-R (R-35) - Rp3.000.000/hari</option>
+                                <option value="Ferrari 812|5500000">Ferrari 812 - Rp5.500.000/hari</option>
+                                <option value="Bugatti Veyron|10000000">Bugatti Veyron - Rp10.000.000/hari</option>
+                                <option value="Toyota 86|2000000">BMW M3 - Rp2.000.000/hari</option>
+                                <option value="McLaren 720s|6500000">McLaren 720s - Rp6.500.000/hari</option>
+                                <option value="BMW M4|4500000">BMW M4 - Rp4.500.000/hari</option>
+                            </select>
+                        </div>
+                        <p class="mt-3">Pilih metode Pembayaran!</p>
+                        <div class="input-group mb-3">
+                            <select class="form-select" id="inputGroupSelect01">
+                                <option value="Debit" selected>Debit</option>
+                                <option value="Kredit">Kredit</option>
+                                <option value="QRIS">QRIS</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark rounded" id="transaksi1">
+                            Selanjutnya
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal kedua -->
+        <div class="modal fade" id="transaksi" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel2">Detail Transaksi</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="m-0 mb-1 text-success fw-semibold">Selamat pesanan anda sedang dalam proses</p>
+                        <p class="m-0 mb-1 text-success fw-semibold">Silakan cek pesan Whatsapp untuk konfirmasi pesanan!</p>
+                        <p class="m-0" id="outnama"></p>
+                        <p class="m-0" id="outtelepon"></p>
+                        <p class="m-0" id="outhari"></p>
+                        <p class="m-0" id="outbayar"></p>
+                        <p class="m-0" id="outmobil"></p>
+                        <p class="m-0" id="outtotal"></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark rounded" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal Akhir (NISSAN GTR) -->
+    <!-- Testimoni Awal -->
+    <section id="testimoni" class="py-5 mt-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+                <h4 class="text-center">Testimoni</h4>      
+                <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-1.png" alt="Profile 1" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Ini adalah layanan yang luar biasa! Sangat dianjurkan."</p>
+                                <h5>- Jamal</h5>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-2.jpg" alt="Profile 2" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Pengalaman yang luar biasa. Saya pasti akan menggunakannya lagi."</p>
+                                <h5>- Marques</h5>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-3.png" alt="Profile 3" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Dukungan pelanggan yang luar biasa dan kualitas luar biasa."</p>
+                                <h5>- Eman</h5>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-4.png" alt="Profile 4" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Saya sangat puas dengan pelayanan yang diberikan."</p>
+                                <h5>- Eric</h5>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-5.jpg" alt="Profile 5" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Ini melebihi ekspektasi saya dalam segala hal."</p>
+                                <h5>- Lina</h5>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-3">
+                            <div class="testimonial">
+                            <img src="../assets/images/testimoni-6.jpg" alt="Profile 6" class="profile-pic">
+                            <div class="testimonial-content">
+                                <p>"Saya akan merekomendasikan ini kepada semua teman dan keluarga saya."</p>
+                                <h5>- Julia</h5>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>        
+        </div>
+    </section>
+    <!-- Testimoni Akhir -->
+    <!-- FAQ Awal -->
+    <section id="faq" class="py-5 mt-5" data-aos="fade-up" data-aos-delay="200">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-center">Frequently Asked Questions</h4>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header custom-accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Apa saja persyaratan yang dibutuhkan?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Persyaratan yang harus dilengkapi antara lain: KTP, SIM, konfirmasi tiket pesawat, dll.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header custom-accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Bagaimana cara booking?
+                            </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Bisa melalui telepon, Whatsapp, Email.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header custom-accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Apakah bisa dibawa keluar Bali?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Tidak bisa. Penggunaan rental mobil hanya di dalam wilayah Bali.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header custom-accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                Bagaimana jika terjadi kecelakaan?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Jika terjadi kerusakan ringan, akan dikenakan biaya klaim asuransi Rp.350.000. per titik. Jika rusak parah, biaya perbaikan ditanggung penyewa sepenuhnya, dan dikenakan biaya sewa penuh selama mobil dalam masa perbaikan.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ Akhir -->
+    <!-- Footer Awal -->
+    <section id="footer" class="py-5 mt-5" style="background-color: #000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0" id="f-1">
+                    <img src="../assets/images/logo-scrolled.png" height="40" alt="logo">
+                    <p>LUXRENT menawarkan penyewaan mobil mewah di Bali dengan harga termurah.</p>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0" id="f-2">
+                    <h5 class="text-white">HUBUNGI KAMI</h5>
+                    <p><i class="bi bi-geo-alt-fill text-white"></i> Jl. Tukad Batanghari No 22</p>
+                    <p><i class="bi bi-telephone-fill text-white"></i> +62812657456</p>
+                    <p><i class="bi bi-envelope-fill text-white"></i> cs@luxrent.com</p>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0" id="f-3">
+                    <h5 class="text-white">METODE PEMBAYARAN</h5>
+                    <p>Kami menjaga keamanan online Anda dengan serius. Semua pembayaran yang diproses aman dan terenkripsi. Anda dapat membayar menggunakan salah satu metode pembayaran berikut:</p>
+                    <img src="https://static.vecteezy.com/system/resources/previews/035/619/321/large_2x/jakarta-indonesia-december-15-2023-editorial-logo-of-qris-indonesia-electronic-payment-free-vector.jpg" alt="qris" class="img-fluid">
+                    <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg" alt="paypal" class="img-fluid">
+                    <img src="https://gotra.sgp1.cdn.digitaloceanspaces.com/web-upload/1693366346-30-08-2023-S6ER0kaizwcsu54gB2FQ8J7tqoU9MYIm.webp" alt="bca" class="img-fluid">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/MasterCard_Logo.svg" alt="bri" class="img-fluid">
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0" id="f-3">
+                    <h5 class="text-white">LOKASI KAMI</h5>
+                    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=Jl. Tukad Batanghari No.62, Dauh Puri Klod, Kec. Denpasar Bar., Kota Denpasar, Bali 80225&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:200px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:200px;}.gmap_iframe {height:200px!important;}</style></div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center mt-5 footer-end">
+                    <p class="text-white">© Copyright 2024 <a href="#" class="text-white">LUXRENT.</a> All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Akhir -->
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
