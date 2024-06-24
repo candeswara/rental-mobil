@@ -1,3 +1,4 @@
+//Load Animation Start
 document.addEventListener('DOMContentLoaded', function() {
     // You get the current window width
     var width = window.innerWidth;
@@ -17,7 +18,9 @@ document.addEventListener('DOMContentLoaded', function() {
       AOS.init();
     }
   });
+//Load Animation End
 
+//Navbar Start
 const navEL = document.querySelector('.navbar');
 window.addEventListener('scroll', () => {
   if (window.scrollY >= 56){
@@ -80,6 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+//Navbar End
 
 
 const x = document.getElementById('nama');
